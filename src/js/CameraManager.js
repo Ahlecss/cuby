@@ -21,7 +21,7 @@ export default class CameraManager {
       this._setDebug()
     }
   }
-  setPosition(x = 0, y = 1, z = 5) {
+  setPosition(x = 0, y = 1, z = 40) {
     this._camera.position.x = x
     this._camera.position.y = y
     this._camera.position.z = z
